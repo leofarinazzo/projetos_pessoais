@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Sans+Nabataean&display=swap');
+
+:root{
+    --cor0:#e7e3db;
+    --cor1:#F29C50;
+    --cor2:#F2A74B;
+    --cor3:#69afbf6b;
+    --cor4:#306773;
+
+    --font1:'Archivo Black';
+    --font2:'Google sans';
+    --font3:'Noto Sans Nabataean';
+}
+  
+*{
+    margin: 0px;
+    padding: 0px;     
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--font2) ;
+}
+
+header{
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 2px 2px;     
+}
+
+header > h1{
+    font-family: var(--font1);
+    font-weight: normal;
+    font-size: 2.4em;
+    padding: 10px 0px 0px 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.137);
+      
+}
+
+header p{
+    font-family: var(--font3);
+    font-weight: normal;
+    font-size: 0.9em;
+    padding: 0px 0px 10px 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.068);
+}
+
+nav{
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 10px 0px;   
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.250); 
+    
+}
+
+nav a{
+    color: var(--cor4);
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 5px 20px;    
+    transition-duration: 0.5s;    
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor4);
+}
+
+main .quadro1, .quadro2, .quadro3, .quadro4{
+    background-color: var(--cor3);
+    text-align: justify;
+    padding: 15px; 
+    margin: 10px;
+    border-radius: 10px;  
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.250);    
+}
+
+main img{
+    max-width: 150px;
+    min-width: 150px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+main h2{
+    background-color: #3067732d;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main h3{
+    background-color: #3067732d;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.6;
+}
+
+main p{
+    margin: 15px 0px;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bioparagrafo {
+    margin: 15px 0px;
+    line-height: 1.5em;
+    font-size: 0.7em;    ;
+}
+
+.atencao li{
+    list-style-type: '⚠️ ';
+    list-style-position: inside;
+    margin: 15px 0px;
+    line-height: 1.5em;
+}
+
+.curiosidades > li{
+    list-style-type: '💡 ';
+    list-style-position: inside;
+    margin: 15px 0px;
+    line-height: 1.5em;
+}
+
+article{
+    
+}
+
+footer{
+    background-color: var(--cor3);
+    text-align: center;
+    font-size: 0.6em;
+    padding: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.250);
+
+}
+
+
