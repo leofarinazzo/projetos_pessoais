@@ -69,7 +69,7 @@ nav > a:hover{
     color: var(--cor4);
 }
 
-main .quadro1, .quadro2, .quadro3, .quadro4{
+main .quadro1, .quadro2, .quadro3, .quadro4, .quadros{
     background-color: var(--cor3);
     text-align: justify;
     padding: 15px; 
