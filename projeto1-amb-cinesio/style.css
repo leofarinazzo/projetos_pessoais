@@ -21,7 +21,7 @@
 
 body{
     background-color: var(--cor0);
-    font-family: var(--font2) ;
+    font-family: var(--font2) ;    
 }
 
 header{
@@ -59,9 +59,10 @@ nav{
 nav a{
     color: var(--cor4);
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding: 5px 20px;    
-    transition-duration: 0.5s;    
+    transition-duration: 0.5s; 
+    text-decoration: none;   
 }
 
 nav > a:hover{
@@ -69,13 +70,16 @@ nav > a:hover{
     color: var(--cor4);
 }
 
-main .quadro1, .quadro2, .quadro3, .quadro4, .quadros{
+main > .quadros {
     background-color: var(--cor3);
-    text-align: justify;
-    padding: 15px; 
-    margin: 10px;
+    text-align: justify;    
+    
+    padding: 20px; 
+    margin: 20px;
+    
     border-radius: 10px;  
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.250);    
+    width: 700px;
 }
 
 main img{
@@ -86,7 +90,6 @@ main img{
     margin: auto;
     width: 100%;
 }
-
 
 main h2{
     background-color: #3067732d;
@@ -110,14 +113,12 @@ main p{
     line-height: 1.5em;
 }
 
-a {
-    text-decoration: none;
+main a {    
+    color: black;
 }
 
-.bioparagrafo {
-    margin: 15px 0px;
-    line-height: 1.5em;
-    font-size: 0.7em;    ;
+main a:hover{    
+    color: var(--cor4);
 }
 
 .atencao li{
@@ -134,7 +135,14 @@ a {
     line-height: 1.5em;
 }
 
-article{
+main .cronograma{
+    background-color: #f2a74b17;
+    text-align: justify;    
+    
+    padding: 15px;     
+    
+    border-radius: 1px;  
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.048);    
     
 }
 
@@ -144,7 +152,8 @@ footer{
     font-size: 0.6em;
     padding: 5px; 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.250);
-
 }
+
+
 
 
