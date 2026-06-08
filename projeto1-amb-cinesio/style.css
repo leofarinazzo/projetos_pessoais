@@ -154,10 +154,15 @@ main .cronograma{
     
 }
 
+main .ed{
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
 footer{
     background-color: var(--cor3);
     text-align: center;
-    font-size: 0.6em;
+    font-size: 0.8em;
     padding: 5px; 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.250);
 }
