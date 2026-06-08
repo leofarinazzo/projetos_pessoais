@@ -21,7 +21,7 @@
 
 body{
     background-color: var(--cor0);
-    font-family: var(--font2) ;    
+    font-family: var(--font2);    
 }
 
 header{
@@ -70,16 +70,20 @@ nav > a:hover{
     color: var(--cor4);
 }
 
-main > .quadros {
+main .quadros {
     background-color: var(--cor3);
-    text-align: justify;    
     
-    padding: 20px; 
-    margin: 20px;
+    min-height: auto;
+    max-width: 900px;
     
-    border-radius: 10px;  
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.250);    
-    width: 700px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.300);
+    
 }
 
 main img{
